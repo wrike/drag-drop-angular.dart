@@ -1,0 +1,27 @@
+<h2>Drag Drop Example 13: Use custom drag directive and allow multiple drag options for single container</h2>
+<p>Try drag fruits and bin.</p>
+
+<basket-component [basket]="basket1"
+                  [drag-drop-model]="basket1"
+                  [drag-options]="dragOptions"
+                  [custom-drag-options]="customDragOptions"
+                  (onCustomDragStart)="onCustomDragStart($event)"
+                  (onDragStart)="onDragStart($event)"
+                  (onDragEnd)="onDragEnd($event)"
+>
+    <fruit-component *ngFor="let fruit of basket1.items"
+                     [model]="fruit"
+                     [drag-drop-model]="fruit"
+    ></fruit-component>
+
+    <basket-component class="secondary"
+            [basket]="basket2"
+            [drag-drop-model]="basket2"
+    >
+        <fruit-component *ngFor="let fruit of basket2.items"
+                         [model]="fruit"
+                         [drag-drop-model]="fruit"
+        ></fruit-component>
+    </basket-component>
+
+</basket-component>

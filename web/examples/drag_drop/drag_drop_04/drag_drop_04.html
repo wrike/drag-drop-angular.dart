@@ -1,0 +1,9 @@
+<h2>Drag Drop Example 4. Drag fruit as container</h2>
+<p>Elements can be dragged without using the container.</p>
+
+<fruit-component *ngFor="let fruit of dragFruits" [model]="fruit"
+               [drag-options]="dragOptions"
+               [drag-drop-model]="fruit"
+               (onDragStart)="onDragStart($event)"
+               (onDragEnd)="onDragEnd($event)"
+></fruit-component>

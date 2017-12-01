@@ -1,0 +1,72 @@
+name: drag_drop_angular
+version: 1.0.0
+description: 'AngularDart providers for HTML5 Drag Drop library'
+homepage: http://www.github.com/wrike/drag-drop-angular.dart
+authors:
+- Oleg Bezuglov <oleg.bezuglov@team.wrike.com>
+
+environment:
+  sdk: '>=1.24.1 <2.0.0'
+
+dependencies:
+  angular2: 3.1.0
+  built_collection: ^1.5.0
+  built_value: ^2.1.0
+  js: ^0.6.1
+  logging: ^0.11.3+1
+  throttle_debounce: ^0.1.2
+  user_environment_angular: ^1.0.0
+  drag_drop: ^1.0.0
+
+dev_dependencies:
+  analyzer: ^0.29.0
+  browser: ^0.10.0
+  less_dart: any
+
+transformers:
+- less_dart:
+    silence: true
+- angular2:
+    use_legacy_style_encapsulation: true
+    entry_points: web/assets/main.dart
+    resolved_identifiers:
+      UserEnvironment: 'package:user_environment/user_environment.dart'
+      DragDropContainer: 'package:drag_drop/drag_drop.dart'
+      DragDropElementManager: 'package:drag_drop/drag_drop.dart'
+      DragDropEventManager: 'package:drag_drop/drag_drop.dart'
+      DragDropManager: 'package:drag_drop/drag_drop.dart'
+      DragDropModelStorage: 'package:drag_drop/drag_drop.dart'
+      DragDropReferenceManager: 'package:drag_drop/drag_drop.dart'
+      DragDropSubscriptionFactory: 'package:drag_drop/drag_drop.dart'
+      DragGhostContainer: 'package:drag_drop/drag_drop.dart'
+      MovementManager: 'package:drag_drop/drag_drop.dart'
+      MovementOptions: 'package:drag_drop/drag_drop.dart'
+      ScrollContainer: 'package:drag_drop/drag_drop.dart'
+      ScrollManager: 'package:drag_drop/drag_drop.dart'
+      ScrollOptions: 'package:drag_drop/drag_drop.dart'
+
+- $dart2js:
+    $exclude: [web/assets/angular_main.dart]
+    checked: false
+    minify: true
+    sourceMaps: true
+    suppressWarnings: false
+    suppressHints: false
+    csp: false
+    commandLineOptions:
+    - --trust-primitives
+    - --trust-type-annotations
+
+dependency_overrides:
+  user_environment:
+    git:
+      url: 'git@github.com:wrike/user-environment.dart.git'
+      ref: 'deploy'
+  user_environment_angular:
+    git:
+      url: 'git@github.com:wrike/user-environment-angular.dart.git'
+      ref: 'deploy'
+  drag_drop:
+    git:
+      url: 'git@github.com:wrike/drag-drop.dart.git'
+      ref: 'deploy'

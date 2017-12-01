@@ -1,0 +1,29 @@
+<h2>Drag Drop Example 20: Use custom drop directive to allow multiple drop options for single container</h2>
+<p>You may use custom drop directives to allow multiple models to be dropped into single container in more clear manner.
+In this example you may drop fruits from first basket to second (one by one), or drop entire basket to move all items from it to the second one.</p>
+
+<basket-component [basket]="basket1"
+                  [drag-drop-model]="basket1"
+                  [drag-options]="basketDragOptions"
+>
+  <fruit-component *ngFor="let fruit of basket1.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+                   [drag-options]="fruitDragOptions"
+  ></fruit-component>
+</basket-component>
+
+<basket-component [basket]="basket2"
+                  [drag-drop-model]="basket2"
+
+                  [drop-options]="fruitDropOptions"
+                  (onDrop)="onDrop($event)"
+
+                  [custom-drop-options]="basketDropOptions"
+                  (onCustomDrop)="onCustomDrop($event)"
+>
+  <fruit-component *ngFor="let fruit of basket2.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+</basket-component>

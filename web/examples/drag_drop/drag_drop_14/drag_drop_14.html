@@ -1,0 +1,34 @@
+<h2>Drag Drop Example 14: Drop fruit to container</h2>
+<p>Try to move fruits from one basket to another.</p>
+
+<basket-component [basket]="basket1"
+                  [drag-drop-model]="basket1"
+                  [drag-options]="dragOptions"
+                  [drop-options]="dropOptions"
+                  (onDragStart)="onDragStart($event)"
+                  (onDragEnter)="onDragEnter($event)"
+                  (onDragLeave)="onDragLeave($event)"
+                  (onDragEnd)="onDragEnd($event)"
+                  (onDrop)="onDrop($event)"
+>
+  <fruit-component *ngFor="let fruit of basket1.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+</basket-component>
+
+<basket-component [basket]="basket2"
+                  [drag-drop-model]="basket2"
+                  [drag-options]="dragOptions"
+                  [drop-options]="dropOptions"
+                  (onDragStart)="onDragStart($event)"
+                  (onDragEnter)="onDragEnter($event)"
+                  (onDragLeave)="onDragLeave($event)"
+                  (onDragEnd)="onDragEnd($event)"
+                  (onDrop)="onDrop($event)"
+>
+  <fruit-component *ngFor="let fruit of basket2.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+</basket-component>
