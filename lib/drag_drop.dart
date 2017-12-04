@@ -1,5 +1,5 @@
 export 'package:drag_drop/drag_drop.dart';
-export 'package:user_environment_angular/user_environment.dart';
+export 'package:user_environment_angular/user_environment_angular.dart';
 
 export 'movement.dart';
 export 'scroll.dart';

@@ -1,30 +1,9 @@
-Prepare
+[![travis build](https://travis-ci.org/wrike/drag-drop-angular.dart.svg?branch=master)](https://travis-ci.org/wrike/drag-drop-angular.dart)
+## Drag Drop library for Dart Angular-driven apps
+Designed to utilize HTML5 Drag and Drop API, it supports all major and modern browsers.
 
-```
-pub get
-pub global activate grinder
-```
+Due to nature of the underlying API, it's possible to implement system-wide drag'n'drop interactions.
 
-How to build
+It also provides ability to manage scroll-on-drag process.
 
-```
-grind html_gen
-```
-or
-```
-pub run grinder html_gen
-```
-
-How to run
-
-```
-grind serve
-```
-or
-```
-pub serve web --port=8181
-```
-
-To open on dev machine use:
-
-https://alpha.wrke.io/frontend/wrike_dragdrop/dev/
+Based on `drag-drop.dart` package [GitHub](https://github.com/wrike/drag-drop.dart), [Pub](https://pub.dartlang.org/packages/drag_drop)

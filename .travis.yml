@@ -1,0 +1,14 @@
+language: dart
+sudo: false
+
+dart:
+- dev
+
+dart_task:
+- analyzer: --strong --fatal-warnings
+- test: false
+
+
+cache:
+  directories:
+    - $HOME/.pub-cache

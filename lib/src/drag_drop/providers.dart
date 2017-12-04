@@ -1,6 +1,6 @@
 import 'package:angular2/di.dart';
 import 'package:drag_drop/drag_drop.dart';
-import 'package:user_environment_angular/user_environment.dart';
+import 'package:user_environment_angular/user_environment_angular.dart';
 
 import '../../scroll.dart';
 
