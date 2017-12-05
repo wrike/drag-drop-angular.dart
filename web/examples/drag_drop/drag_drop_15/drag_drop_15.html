@@ -1,0 +1,51 @@
+<h2>Drag Drop Example 15: Drop fruit to nested container</h2>
+<p>You may nest containers as more as you wish. In this example try to move fruits from first basket to the second,
+as well as into nested basket. You may drag and drop fruits from the second basket to the nested one also.</p>
+
+<basket-component [basket]="basket1"
+                  [drag-drop-model]="basket1"
+                  [drag-options]="dragOptions"
+                  [drop-options]="dropOptions"
+                  (onDragStart)="onDragStart($event)"
+                  (onDragEnter)="onDragEnter($event)"
+                  (onDragLeave)="onDragLeave($event)"
+                  (onDragEnd)="onDragEnd($event)"
+                  (onDrop)="onDrop($event)"
+>
+  <fruit-component *ngFor="let fruit of basket1.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+</basket-component>
+
+<basket-component [basket]="basket2"
+                  [drag-drop-model]="basket2"
+                  [drag-options]="dragOptions"
+                  [drop-options]="dropOptions"
+                  (onDragStart)="onDragStart($event)"
+                  (onDragEnter)="onDragEnter($event)"
+                  (onDragLeave)="onDragLeave($event)"
+                  (onDragEnd)="onDragEnd($event)"
+                  (onDrop)="onDrop($event)"
+>
+  <fruit-component *ngFor="let fruit of basket2.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+    <basket-component class="secondary"
+                      [basket]="basket3"
+                      [drag-drop-model]="basket3"
+                      [drag-options]="dragOptions"
+                      [drop-options]="dropOptions"
+                      (onDragStart)="onDragStart($event)"
+                      (onDragEnter)="onDragEnter($event)"
+                      (onDragLeave)="onDragLeave($event)"
+                      (onDragEnd)="onDragEnd($event)"
+                      (onDrop)="onDrop($event)"
+    >
+        <fruit-component *ngFor="let fruit of basket3.items"
+                         [model]="fruit"
+                         [drag-drop-model]="fruit"
+        ></fruit-component>
+    </basket-component>
+</basket-component>

@@ -1,0 +1,14 @@
+<h2>Drag Drop Example 1. Drag fruit out of container</h2>
+<p>Draggable objects are defined by CSS selector in container's drag-options.</p>
+
+<basket-component [basket]="basket"
+                  [drag-drop-model]="basket"
+                  [drag-options]="dragOptions"
+                  (onDragStart)="onDragStart($event)"
+                  (onDragEnd)="onDragEnd($event)"
+>
+  <fruit-component *ngFor="let fruit of basket.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+</basket-component>

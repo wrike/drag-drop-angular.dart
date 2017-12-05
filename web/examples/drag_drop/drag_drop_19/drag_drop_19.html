@@ -1,0 +1,16 @@
+<h2>Drag Drop Example 19: Create fruit model from raw event's data on enter</h2>
+<p>You can create models on the fly using dropOptions.provideRawDataModel handler. In this example,
+  random fruit is created when you drag something in the container. Try dragging pieces of text from the page
+  or files from the desktop and enjoy fruit decorated with your text.</p>
+
+<basket-component [basket]="basket"
+                  [drag-drop-model]="basket"
+                  [drag-options]="dragOptions"
+                  [drop-options]="dropOptions"
+                  (onDrop)="onDrop($event)"
+>
+  <fruit-component *ngFor="let fruit of basket.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+</basket-component>

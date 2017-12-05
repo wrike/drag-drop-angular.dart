@@ -1,0 +1,16 @@
+<h2>Drag Drop Example 6. No drag for non-matched fruit</h2>
+<p>You may fine-tune the selector to match only the elements you actually need.
+  In this example only orange is draggable.</p>
+
+<basket-component [basket]="basket"
+                  [drag-drop-model]="basket"
+                  [drag-options]="dragOptions"
+                  (onDragStart)="onDragStart($event)"
+                  (onDragEnd)="onDragEnd($event)"
+>
+  <fruit-component *ngFor="let fruit of basket.items"
+                   [model]="fruit"
+                   [ngClass]="fruit.typeName.toLowerCase()"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+</basket-component>

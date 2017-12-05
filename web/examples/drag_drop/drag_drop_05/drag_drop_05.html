@@ -1,0 +1,16 @@
+<h2>Drag Drop Example 5. Drag fruit as a container from inside another draggable</h2>
+<p>Draggable containers can be nested, for example you may drag fruits as well as basket itself.</p>
+
+<basket-component [basket]="basket"
+                  [drag-drop-model]="basket"
+                  [drag-options]="dragOptionsBasket"
+                  (onDragStart)="onBasketDragStart($event)"
+                  (onDragEnd)="onBasketDragEnd($event)"
+>
+  <fruit-component *ngFor="let fruit of basket.items" [model]="fruit"
+                   [drag-options]="dragOptionsFruit"
+                   [drag-drop-model]="fruit"
+                   (onDragStart)="onFruitDragStart($event)"
+                   (onDragEnd)="onFruitDragEnd($event)"
+  ></fruit-component>
+</basket-component>

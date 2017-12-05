@@ -1,0 +1,28 @@
+<h2>Drag Drop Example 17: Lock drop target by calling canDrop</h2>
+<p>Drop target can be locked (not allowing to drop) using custom logic in dropOptions.canDrop handler.
+In this example you may drop fruits from first basket to the same fruits in the second basket only. In comparison moving
+  fruits from second basket to the first one is unrestricted.</p>
+
+<basket-component [basket]="basket1"
+                  [drag-drop-model]="basket1"
+                  [drag-options]="dragOptions"
+                  [drop-options]="dropOptions"
+                  (onDrop)="onDrop($event)"
+>
+  <fruit-component *ngFor="let fruit of basket1.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+</basket-component>
+
+<basket-component [basket]="basket2"
+                  [drag-drop-model]="basket2"
+                  [drag-options]="dragOptions"
+                  [drop-options]="dropOptions"
+                  (onDrop)="onDrop($event)"
+>
+  <fruit-component *ngFor="let fruit of basket2.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+</basket-component>

@@ -1,0 +1,17 @@
+<h2>Drag Drop Example 18: Handle dragging over drop target</h2>
+<p>You may track drag over target using onDragOver event. As you see in this example, corresponding handler
+  may use cursor position and movement related information. Just drag any fruit over other fruits in the basket.</p>
+
+<basket-component [basket]="basket"
+                  [drag-drop-model]="basket"
+                  [drag-options]="dragOptions"
+                  [drop-options]="dropOptions"
+                  (onDragOver)="onDragOver($event)"
+                  (onDragEnd)="onDragEnd($event)"
+>
+  <fruit-component *ngFor="let fruit of basket.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+  <div *ngIf="isOver" class="info">x: {{position.x}}, y: {{position.y}}, direction: {{direction}}</div>
+</basket-component>

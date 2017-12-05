@@ -1,0 +1,54 @@
+analyzer:
+  strong-mode: true
+  exclude:
+    - tool/**
+  errors:
+    unused_local_variable: error
+    invalid_assignment: error
+    assignment_to_const: error
+    assignment_to_final: error
+    missing_return: error
+    not_enough_required_arguments: error
+    undefined_function: error
+    undefined_method: error
+    undefined_class: error
+linter:
+  rules:
+    - always_declare_return_types
+   #- always_specify_types
+   #- annotate_overrides
+   #- avoid_as
+    - avoid_empty_else
+    - avoid_init_to_null
+    - avoid_return_types_on_setters
+    - await_only_futures
+   #- camel_case_types
+   #- close_sinks # https://github.com/dart-lang/linter/issues/268
+    - comment_references
+   #- constant_identifier_names
+    - control_flow_in_finally
+   #- empty_constructor_bodies
+    - hash_and_equals
+   #- implementation_imports
+    - iterable_contains_unrelated_type
+    - library_names
+    - library_prefixes
+   #- non_constant_identifier_names
+   #- one_member_abstracts
+    - overridden_fields
+    - package_api_docs
+    - package_names
+    - package_prefixed_library_names
+    - prefer_is_not_empty
+   #- public_member_api_docs
+    - slash_for_doc_comments
+   #- sort_constructors_first
+   #- sort_unnamed_constructors_first
+   #- super_goes_last
+    - test_types_in_equals
+    - throw_in_finally
+   #- type_annotate_public_apis
+    - type_init_formals
+    - unnecessary_brace_in_string_interp
+    - unnecessary_getters_setters
+    - unrelated_type_equality_checks

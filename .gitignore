@@ -1,0 +1,31 @@
+# Files and directories created by pub
+.packages
+.buildlog
+.dart_tool/
+.pub/
+build/
+dist/
+node_modules/
+rpmbuild/
+packages
+pubspec.lock
+web/index.html
+
+.DS_Store
+
+# Files created by dart2js
+*.dart.js
+*.part.js
+*.js.deps
+*.js.map
+*.info.json
+
+# Directory created by dartdoc
+doc/api/
+coverage/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
