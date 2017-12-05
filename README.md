@@ -9,7 +9,7 @@ It also provides ability to manage scroll-on-drag process.
 Based on `drag_drop` package [GitHub](https://github.com/wrike/drag-drop.dart), [Pub](https://pub.dartlang.org/packages/drag_drop)
 
 ## Usage
-While reference is on the way, you can start exploring examples, just run
+While reference is on the way, you can start exploring [Live Examples](https://wrike.github.io/drag-drop-angular.dart/) or just run
 ```bash
 pub serve web
 ```

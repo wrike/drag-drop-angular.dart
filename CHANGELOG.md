@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2
+- Live examples
+
 ## 1.0.1
 - Added missing index.html to run demo-app
 
