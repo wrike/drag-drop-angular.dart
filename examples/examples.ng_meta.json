@@ -1,0 +1,1560 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "common.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_01/drag_drop_01.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_02/drag_drop_02.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_03/drag_drop_03.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_04/drag_drop_04.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_05/drag_drop_05.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_06/drag_drop_06.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_07/drag_drop_07.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_08/drag_drop_08.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_09/drag_drop_09.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_10/drag_drop_10.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_11/drag_drop_11.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_12/drag_drop_12.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_13/drag_drop_13.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_14/drag_drop_14.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_15/drag_drop_15.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_16/drag_drop_16.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_17/drag_drop_17.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_18/drag_drop_18.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_19/drag_drop_19.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_20/drag_drop_20.dart",
+        "5": false
+      },
+      {
+        "1": "drag_drop/drag_drop_21/drag_drop_21.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "ExamplesComponent",
+        "7": [
+          {
+            "2": "DragDropExample01Component"
+          },
+          {
+            "2": "DragDropExample02Component"
+          },
+          {
+            "2": "DragDropExample03Component"
+          },
+          {
+            "2": "DragDropExample04Component"
+          },
+          {
+            "2": "DragDropExample05Component"
+          },
+          {
+            "2": "DragDropExample06Component"
+          },
+          {
+            "2": "DragDropExample07Component"
+          },
+          {
+            "2": "DragDropExample08Component"
+          },
+          {
+            "2": "DragDropExample09Component"
+          },
+          {
+            "2": "DragDropExample10Component"
+          },
+          {
+            "2": "DragDropExample11Component"
+          },
+          {
+            "2": "DragDropExample12Component"
+          },
+          {
+            "2": "DragDropExample13Component"
+          },
+          {
+            "2": "DragDropExample14Component"
+          },
+          {
+            "2": "DragDropExample15Component"
+          },
+          {
+            "2": "DragDropExample16Component"
+          },
+          {
+            "2": "DragDropExample17Component"
+          },
+          {
+            "2": "DragDropExample18Component"
+          },
+          {
+            "2": "DragDropExample19Component"
+          },
+          {
+            "2": "DragDropExample20Component"
+          },
+          {
+            "2": "DragDropExample21Component"
+          }
+        ]
+      }
+    ],
+    "6": "examples.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "common.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "drag_drop/drag_drop_01/drag_drop_01.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "drag_drop/drag_drop_02/drag_drop_02.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "drag_drop/drag_drop_03/drag_drop_03.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "drag_drop/drag_drop_04/drag_drop_04.template.dart",
+        "4": "i5"
+      },
+      {
+        "1": "drag_drop/drag_drop_05/drag_drop_05.template.dart",
+        "4": "i6"
+      },
+      {
+        "1": "drag_drop/drag_drop_06/drag_drop_06.template.dart",
+        "4": "i7"
+      },
+      {
+        "1": "drag_drop/drag_drop_07/drag_drop_07.template.dart",
+        "4": "i8"
+      },
+      {
+        "1": "drag_drop/drag_drop_08/drag_drop_08.template.dart",
+        "4": "i9"
+      },
+      {
+        "1": "drag_drop/drag_drop_09/drag_drop_09.template.dart",
+        "4": "i10"
+      },
+      {
+        "1": "drag_drop/drag_drop_10/drag_drop_10.template.dart",
+        "4": "i11"
+      },
+      {
+        "1": "drag_drop/drag_drop_11/drag_drop_11.template.dart",
+        "4": "i12"
+      },
+      {
+        "1": "drag_drop/drag_drop_12/drag_drop_12.template.dart",
+        "4": "i13"
+      },
+      {
+        "1": "drag_drop/drag_drop_13/drag_drop_13.template.dart",
+        "4": "i14"
+      },
+      {
+        "1": "drag_drop/drag_drop_14/drag_drop_14.template.dart",
+        "4": "i15"
+      },
+      {
+        "1": "drag_drop/drag_drop_15/drag_drop_15.template.dart",
+        "4": "i16"
+      },
+      {
+        "1": "drag_drop/drag_drop_16/drag_drop_16.template.dart",
+        "4": "i17"
+      },
+      {
+        "1": "drag_drop/drag_drop_17/drag_drop_17.template.dart",
+        "4": "i18"
+      },
+      {
+        "1": "drag_drop/drag_drop_18/drag_drop_18.template.dart",
+        "4": "i19"
+      },
+      {
+        "1": "drag_drop/drag_drop_19/drag_drop_19.template.dart",
+        "4": "i20"
+      },
+      {
+        "1": "drag_drop/drag_drop_20/drag_drop_20.template.dart",
+        "4": "i21"
+      },
+      {
+        "1": "drag_drop/drag_drop_21/drag_drop_21.template.dart",
+        "4": "i22"
+      }
+    ]
+  },
+  "type": {
+    "ExamplesComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "div.drag-drop-examples",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "ExamplesComponent",
+        "moduleUrl": "asset:drag_drop_angular/web/examples/examples.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<div class=\"example\"><drag-drop-example-01></drag-drop-example-01></div>\n<div class=\"example\"><drag-drop-example-02></drag-drop-example-02></div>\n<div class=\"example\"><drag-drop-example-03></drag-drop-example-03></div>\n<div class=\"example\"><drag-drop-example-04></drag-drop-example-04></div>\n<div class=\"example\"><drag-drop-example-05></drag-drop-example-05></div>\n<div class=\"example\"><drag-drop-example-06></drag-drop-example-06></div>\n<div class=\"example\"><drag-drop-example-07></drag-drop-example-07></div>\n<div class=\"example\"><drag-drop-example-08></drag-drop-example-08></div>\n<div class=\"example\"><drag-drop-example-09></drag-drop-example-09></div>\n<div class=\"example\"><drag-drop-example-10></drag-drop-example-10></div>\n<div class=\"example\"><drag-drop-example-11></drag-drop-example-11></div>\n<div class=\"example\"><drag-drop-example-12></drag-drop-example-12></div>\n<div class=\"example\"><drag-drop-example-13></drag-drop-example-13></div>\n<div class=\"example\"><drag-drop-example-14></drag-drop-example-14></div>\n<div class=\"example\"><drag-drop-example-15></drag-drop-example-15></div>\n<div class=\"example\"><drag-drop-example-16></drag-drop-example-16></div>\n<div class=\"example\"><drag-drop-example-17></drag-drop-example-17></div>\n<div class=\"example\"><drag-drop-example-18></drag-drop-example-18></div>\n<div class=\"example\"><drag-drop-example-19></drag-drop-example-19></div>\n<div class=\"example\"><drag-drop-example-20></drag-drop-example-20></div>\n<div class=\"example\"><drag-drop-example-21></drag-drop-example-21></div>\n",
+        "templateUrl": "asset:drag_drop_angular/web/examples/examples.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:drag_drop_angular/web/examples/examples.css"
+        ],
+        "ngContentSelectors": [],
+        "preserveWhitespace": false
+      },
+      "providers": [
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "UserEnvironment",
+              "moduleUrl": "package:user_environment/user_environment.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableUserEnvironmentFactory",
+            "prefix": null,
+            "moduleUrl": "asset:user_environment_angular/lib/src/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "UserEnvironment",
+                    "moduleUrl": "package:user_environment/user_environment.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "MovementOptions",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableMovementOptionsFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/movement/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "MovementOptions",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "MovementManager",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableMovementManagerFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/movement/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "MovementManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "MovementOptions",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "ScrollContainer",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableScrollContainerFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/scroll/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "ScrollContainer",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "ScrollOptions",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableScrollOptionsFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/scroll/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "ScrollOptions",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "ScrollManager",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableScrollManagerFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/scroll/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "ScrollManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "MovementManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "ScrollContainer",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "ScrollOptions",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "NgZone",
+                    "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DragDropSubscriptionFactory",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableDragDropSubscriptionFactoryFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/drag_drop/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropSubscriptionFactory",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DragDropModelStorage",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableDragDropModelStorageFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/drag_drop/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropModelStorage",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "NgZone",
+                    "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DragDropReferenceManager",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableDragDropReferenceManagerFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/drag_drop/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropReferenceManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropElementManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropModelStorage",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "NgZone",
+                    "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DragDropEventManager",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableDragDropEventManagerFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/drag_drop/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropEventManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropElementManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropContainer",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "UserEnvironment",
+                    "moduleUrl": "package:user_environment/user_environment.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "NgZone",
+                    "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DragDropElementManager",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableDragDropElementManagerFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/drag_drop/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropElementManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropContainer",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragGhostContainer",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "UserEnvironment",
+                    "moduleUrl": "package:user_environment/user_environment.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "NgZone",
+                    "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DragDropContainer",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableDragDropContainerFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/drag_drop/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropContainer",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DragGhostContainer",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableDragGhostContainerFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/drag_drop/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragGhostContainer",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DragDropManager",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableDragDropManagerFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/drag_drop/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "ScrollManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropElementManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "MovementManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropEventManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropReferenceManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "NgZone",
+                    "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Type",
+              "name": "FruitFactory",
+              "moduleUrl": "asset:drag_drop_angular/web/examples/fruit/fruit_factory.dart",
+              "prefix": null,
+              "isHost": false,
+              "value": null,
+              "diDeps": []
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "FruitFactory",
+            "moduleUrl": "asset:drag_drop_angular/web/examples/fruit/fruit_factory.dart",
+            "prefix": null,
+            "isHost": false,
+            "value": null,
+            "diDeps": []
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null,
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Type",
+              "name": "ExampleEventsHandler",
+              "moduleUrl": "asset:drag_drop_angular/web/examples/event_hander.dart",
+              "prefix": null,
+              "isHost": false,
+              "value": null,
+              "diDeps": [
+                {
+                  "token": {
+                    "value": null,
+                    "identifier": {
+                      "class": "Identifier",
+                      "name": "DragDropModelStorage",
+                      "moduleUrl": "package:drag_drop/drag_drop.dart",
+                      "prefix": null,
+                      "value": null
+                    },
+                    "identifierIsInstance": false
+                  },
+                  "value": null,
+                  "isAttribute": false,
+                  "isSelf": false,
+                  "isHost": false,
+                  "isSkipSelf": false,
+                  "isOptional": false,
+                  "isValue": false
+                }
+              ]
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "ExampleEventsHandler",
+            "moduleUrl": "asset:drag_drop_angular/web/examples/event_hander.dart",
+            "prefix": null,
+            "isHost": false,
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "DragDropModelStorage",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null,
+          "multi": false,
+          "deps": null
+        }
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

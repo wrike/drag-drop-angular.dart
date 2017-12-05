@@ -1,0 +1,31 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/platform/browser_static.dart",
+        "5": false
+      },
+      {
+        "1": "package:logging/logging.dart",
+        "4": "log",
+        "5": false
+      },
+      {
+        "1": "../examples/examples.dart",
+        "5": false
+      }
+    ],
+    "6": "main.dart"
+  },
+  "type": {
+    "main": {
+      "class": "Identifier",
+      "name": "main",
+      "moduleUrl": "asset:drag_drop_angular/web/assets/main.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,34 @@
+{
+  "ngDeps": {
+    "1": "",
+    "4": [
+      {
+        "1": "dart:html"
+      },
+      {
+        "1": "package:drag_drop_angular/drag_drop.dart"
+      },
+      {
+        "1": "basket/basket.dart"
+      },
+      {
+        "1": "basket/basket_model.dart"
+      },
+      {
+        "1": "event_hander.dart"
+      },
+      {
+        "1": "fruit/fruit.dart"
+      },
+      {
+        "1": "fruit/fruit_factory.dart"
+      },
+      {
+        "1": "fruit/fruit_model.dart"
+      }
+    ],
+    "6": "common.dart"
+  },
+  "type": {},
+  "alias": {}
+}

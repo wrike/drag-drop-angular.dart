@@ -1,0 +1,147 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "../../common.dart",
+        "5": false
+      },
+      {
+        "1": "custom_drag_directive.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "DragDropExample13Component",
+        "5": [
+          {
+            "1": "FruitFactory",
+            "4": "fruits"
+          },
+          {
+            "1": "ExampleEventsHandler",
+            "4": "handler"
+          }
+        ],
+        "7": [
+          {
+            "2": "CORE_DIRECTIVES"
+          },
+          {
+            "2": "DRAG_DROP_DIRECTIVES"
+          },
+          {
+            "2": "BasketComponent"
+          },
+          {
+            "2": "FruitComponent"
+          },
+          {
+            "2": "CustomDragDirective"
+          }
+        ]
+      }
+    ],
+    "6": "drag_drop_13.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "../../common.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "custom_drag_directive.template.dart",
+        "4": "i2"
+      }
+    ]
+  },
+  "type": {
+    "DragDropExample13Component": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "drag-drop-example-13",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "DragDropExample13Component",
+        "moduleUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_13/drag_drop_13.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "FruitFactory",
+                "moduleUrl": "asset:drag_drop_angular/web/examples/fruit/fruit_factory.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          },
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ExampleEventsHandler",
+                "moduleUrl": "asset:drag_drop_angular/web/examples/event_hander.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<h2>Drag Drop Example 13: Use custom drag directive and allow multiple drag options for single container</h2>\n<p>Try drag fruits and bin.</p>\n\n<basket-component [basket]=\"basket1\"\n                  [drag-drop-model]=\"basket1\"\n                  [drag-options]=\"dragOptions\"\n                  [custom-drag-options]=\"customDragOptions\"\n                  (onCustomDragStart)=\"onCustomDragStart($event)\"\n                  (onDragStart)=\"onDragStart($event)\"\n                  (onDragEnd)=\"onDragEnd($event)\"\n>\n    <fruit-component *ngFor=\"let fruit of basket1.items\"\n                     [model]=\"fruit\"\n                     [drag-drop-model]=\"fruit\"\n    ></fruit-component>\n\n    <basket-component class=\"secondary\"\n            [basket]=\"basket2\"\n            [drag-drop-model]=\"basket2\"\n    >\n        <fruit-component *ngFor=\"let fruit of basket2.items\"\n                         [model]=\"fruit\"\n                         [drag-drop-model]=\"fruit\"\n        ></fruit-component>\n    </basket-component>\n\n</basket-component>\n",
+        "templateUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_13/drag_drop_13.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_13/drag_drop_13.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

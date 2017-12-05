@@ -1,0 +1,136 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "../../common.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "DragDropExample11Component",
+        "5": [
+          {
+            "1": "FruitFactory",
+            "4": "fruits"
+          },
+          {
+            "1": "ExampleEventsHandler",
+            "4": "handler"
+          }
+        ],
+        "7": [
+          {
+            "2": "CORE_DIRECTIVES"
+          },
+          {
+            "2": "DRAG_DROP_DIRECTIVES"
+          },
+          {
+            "2": "BasketComponent"
+          },
+          {
+            "2": "FruitComponent"
+          }
+        ]
+      }
+    ],
+    "6": "drag_drop_11.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "../../common.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "DragDropExample11Component": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "drag-drop-example-11",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "DragDropExample11Component",
+        "moduleUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_11/drag_drop_11.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "FruitFactory",
+                "moduleUrl": "asset:drag_drop_angular/web/examples/fruit/fruit_factory.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          },
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ExampleEventsHandler",
+                "moduleUrl": "asset:drag_drop_angular/web/examples/event_hander.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<h2>Drag Drop Example 11: Pass fruit data to event by calling beforeStart and drag fruit to desktop or external app</h2>\n<p>By setting custom data in dragOptions.beforeStart handler you may provide this data to external applications\nby dragging element to it or event desktop.</p>\n\n<basket-component [basket]=\"basket\"\n                  [drag-drop-model]=\"basket\"\n                  [drag-options]=\"dragOptions\"\n                  (onDragStart)=\"onDragStart($event)\"\n                  (onDragEnd)=\"onDragEnd($event)\"\n>\n  <fruit-component  *ngFor=\"let fruit of basket.items\"\n                    [model]=\"fruit\"\n                    [drag-drop-model]=\"fruit\"\n  ></fruit-component>\n</basket-component>\n",
+        "templateUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_11/drag_drop_11.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_11/drag_drop_11.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

@@ -1,0 +1,90 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "fruit_model.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "FruitComponent",
+        "6": [
+          "OnChanges"
+        ],
+        "7": [
+          {
+            "2": "CORE_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "fruit.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "fruit_model.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "FruitComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "fruit-component",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "FruitComponent",
+        "moduleUrl": "asset:drag_drop_angular/web/examples/fruit/fruit.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 6,
+      "inputs": {
+        "fruit": "model"
+      },
+      "inputTypes": {
+        "fruit": " FruitModel"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {
+        "style.min-height": "height",
+        "style.background": "backgroundColor"
+      },
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        3
+      ],
+      "template": {
+        "encapsulation": 0,
+        "template": "{{fruit.type.name}} ({{fruit.sizeType}})\n\n<span class=\"note\" *ngIf=\"fruit.note != null\">\n  {{fruit.note}}\n</span>\n\n<ng-content></ng-content>\n",
+        "templateUrl": "asset:drag_drop_angular/web/examples/fruit/fruit.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:drag_drop_angular/web/examples/fruit/fruit.css"
+        ],
+        "ngContentSelectors": [
+          "*"
+        ]
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

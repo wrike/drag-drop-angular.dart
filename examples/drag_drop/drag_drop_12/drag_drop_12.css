@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+:host input,
+:host a,
+:host img {
+  display: block;
+  margin: 5px auto 0 auto;
+}
+:host img {
+  margin-top: 0;
+  width: 50px;
+}
+ /deep/ .drag-source-ghost-wrapper > fruit-component input,
+ /deep/ .drag-source-ghost-wrapper > fruit-component a,
+ /deep/ .drag-source-ghost-wrapper > fruit-component img {
+  display: block;
+  margin: 5px auto 0 auto;
+}
+ /deep/ .drag-source-ghost-wrapper > fruit-component img {
+  margin-top: 0;
+  width: 50px;
+}

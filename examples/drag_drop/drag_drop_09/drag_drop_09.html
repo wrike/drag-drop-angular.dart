@@ -1,0 +1,24 @@
+<h2>Drag Drop Example 9: Set custom drag image by calling provideGhost</h2>
+<p>Custom drag image may be defined using dragOptions.provideGhost handler.
+  Try to drag any fruit to see good looking image instead of rectangles!</p>
+
+<basket-component [basket]="basket"
+                  [drag-drop-model]="basket"
+                  [drag-options]="dragOptions"
+                  (onDragStart)="onDragStart($event)"
+                  (onDragEnd)="onDragEnd($event)"
+>
+  <fruit-component  *ngFor="let fruit of basket.items"
+                    [model]="fruit"
+                    [drag-drop-model]="fruit"
+  ></fruit-component>
+</basket-component>
+
+<drag-images>
+  <div *ngFor="let fruit of basket.items"
+       class="dragImage {{fruit.typeName.toLowerCase()}}"
+       [style.border-color]="fruit.type.color"
+  >
+    <div></div>
+  </div>
+</drag-images>

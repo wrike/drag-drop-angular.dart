@@ -1,0 +1,23 @@
+:host {
+    display: block;
+    background: white;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    font-family: "Open sans", "lucida grande", "Segoe UI", arial, verdana, tahoma, sans-serif;
+    font: 400 14px/1.57;
+
+    h2 {
+        font: 22px/1.6;
+        font-weight: normal;
+    }
+
+    div.example {
+        padding: 15px 20px;
+    }
+}
+
+/deep/ .drag-source-ghost-wrapper {
+    z-index: 100000;
+    position: fixed;
+}

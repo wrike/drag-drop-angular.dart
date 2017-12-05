@@ -1,0 +1,126 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "../../common.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "DragDropExample06Component",
+        "5": [
+          {
+            "1": "FruitFactory",
+            "4": "fruits"
+          },
+          {
+            "1": "ExampleEventsHandler",
+            "4": "handler"
+          }
+        ],
+        "7": [
+          {
+            "2": "CORE_DIRECTIVES"
+          },
+          {
+            "2": "DRAG_DROP_DIRECTIVES"
+          },
+          {
+            "2": "BasketComponent"
+          },
+          {
+            "2": "FruitComponent"
+          }
+        ]
+      }
+    ],
+    "6": "drag_drop_06.dart"
+  },
+  "type": {
+    "DragDropExample06Component": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "drag-drop-example-06",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "DragDropExample06Component",
+        "moduleUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_06/drag_drop_06.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "FruitFactory",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          },
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ExampleEventsHandler",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<h2>Drag Drop Example 6. No drag for non-matched fruit</h2>\n<p>You may fine-tune the selector to match only the elements you actually need.\n  In this example only orange is draggable.</p>\n\n<basket-component [basket]=\"basket\"\n                  [drag-drop-model]=\"basket\"\n                  [drag-options]=\"dragOptions\"\n                  (onDragStart)=\"onDragStart($event)\"\n                  (onDragEnd)=\"onDragEnd($event)\"\n>\n  <fruit-component *ngFor=\"let fruit of basket.items\"\n                   [model]=\"fruit\"\n                   [ngClass]=\"fruit.typeName.toLowerCase()\"\n                   [drag-drop-model]=\"fruit\"\n  ></fruit-component>\n</basket-component>\n",
+        "templateUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_06/drag_drop_06.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_06/drag_drop_06.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

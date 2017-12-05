@@ -1,0 +1,72 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "drag_directive.dart",
+        "5": false
+      },
+      {
+        "1": "drop_directive.dart",
+        "5": false
+      },
+      {
+        "1": "model_directive.dart",
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "base_drag_drop_directive.dart"
+      },
+      {
+        "1": "drag_directive.dart"
+      },
+      {
+        "1": "drop_directive.dart"
+      },
+      {
+        "1": "model_directive.dart"
+      }
+    ],
+    "6": "directives.dart"
+  },
+  "type": {
+    "DRAG_DROP_DIRECTIVES": {
+      "class": "Identifier",
+      "name": "DRAG_DROP_DIRECTIVES",
+      "moduleUrl": "asset:drag_drop_angular/lib/src/drag_drop/directives.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "DragDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "DropDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "DragDropModelDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ]
+    }
+  },
+  "alias": {
+    "DRAG_DROP_DIRECTIVES": [
+      "DragDirective",
+      "DragDropModelDirective",
+      "DropDirective"
+    ]
+  }
+}

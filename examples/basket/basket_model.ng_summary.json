@@ -1,0 +1,13 @@
+{
+  "ngDeps": null,
+  "type": {
+    "Basket": {
+      "class": "Identifier",
+      "name": "Basket",
+      "moduleUrl": "asset:drag_drop_angular/web/examples/basket/basket_model.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

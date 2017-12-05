@@ -1,0 +1,30 @@
+:host {
+  display: block;
+  border: solid 1px #bbb;
+  padding: 30px 8px 8px 8px;
+  position: relative;
+  margin: 10px 0;
+  background: white;
+}
+:host .indicator {
+  background: #aaa;
+  padding: 5px 7px;
+  font-size: 12px;
+  position: absolute;
+  opacity: 0.7;
+  left: 0;
+  top: 0;
+}
+:host .content {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+:host basket-component {
+  width: 100%;
+  background: #e5e5e5;
+  margin-bottom: 0;
+}
+:host fruit-component.drag-source-valid {
+  opacity: 0.5;
+}

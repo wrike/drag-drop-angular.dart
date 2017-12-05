@@ -1,0 +1,410 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/di.dart",
+        "5": false
+      },
+      {
+        "1": "package:drag_drop/scroll.dart",
+        "5": false
+      },
+      {
+        "1": "../../movement.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "injectableScrollContainerFactory",
+        "3": true,
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ScrollContainer",
+            "3": [
+              "const SkipSelf()",
+              "const Optional()"
+            ],
+            "4": "container"
+          }
+        ]
+      },
+      {
+        "1": "injectableScrollOptionsFactory",
+        "3": true,
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ScrollOptions",
+            "3": [
+              "const SkipSelf()",
+              "const Optional()"
+            ],
+            "4": "options"
+          }
+        ]
+      },
+      {
+        "1": "injectableScrollManagerFactory",
+        "3": true,
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ScrollManager",
+            "3": [
+              "const SkipSelf()",
+              "const Optional()"
+            ],
+            "4": "manager"
+          },
+          {
+            "1": "MovementManager",
+            "4": "movementManager"
+          },
+          {
+            "1": "ScrollContainer",
+            "4": "scrollContainer"
+          },
+          {
+            "1": "ScrollOptions",
+            "4": "scrollOptions"
+          },
+          {
+            "1": "NgZone",
+            "4": "zone"
+          }
+        ]
+      }
+    ],
+    "6": "providers.dart"
+  },
+  "type": {
+    "SCROLL_PROVIDERS": {
+      "class": "Identifier",
+      "name": "SCROLL_PROVIDERS",
+      "moduleUrl": "asset:drag_drop_angular/lib/src/scroll/providers.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "MOVEMENT_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "ScrollContainerProvider",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "ScrollOptionsProvider",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "ScrollManagerProvider",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ]
+    },
+    "ScrollContainerProvider": {
+      "class": "Identifier",
+      "name": "ScrollContainerProvider",
+      "moduleUrl": "asset:drag_drop_angular/lib/src/scroll/providers.dart",
+      "prefix": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "value": null,
+          "identifier": {
+            "class": "Identifier",
+            "name": "ScrollContainer",
+            "moduleUrl": null,
+            "prefix": null,
+            "value": null
+          },
+          "identifierIsInstance": false
+        },
+        "useClass": null,
+        "useExisting": null,
+        "useValue": null,
+        "useFactory": {
+          "class": "Factory",
+          "name": "injectableScrollContainerFactory",
+          "prefix": null,
+          "moduleUrl": null,
+          "value": null,
+          "diDeps": []
+        },
+        "multi": false,
+        "deps": null
+      }
+    },
+    "ScrollManagerProvider": {
+      "class": "Identifier",
+      "name": "ScrollManagerProvider",
+      "moduleUrl": "asset:drag_drop_angular/lib/src/scroll/providers.dart",
+      "prefix": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "value": null,
+          "identifier": {
+            "class": "Identifier",
+            "name": "ScrollManager",
+            "moduleUrl": null,
+            "prefix": null,
+            "value": null
+          },
+          "identifierIsInstance": false
+        },
+        "useClass": null,
+        "useExisting": null,
+        "useValue": null,
+        "useFactory": {
+          "class": "Factory",
+          "name": "injectableScrollManagerFactory",
+          "prefix": null,
+          "moduleUrl": null,
+          "value": null,
+          "diDeps": []
+        },
+        "multi": false,
+        "deps": null
+      }
+    },
+    "ScrollOptionsProvider": {
+      "class": "Identifier",
+      "name": "ScrollOptionsProvider",
+      "moduleUrl": "asset:drag_drop_angular/lib/src/scroll/providers.dart",
+      "prefix": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "value": null,
+          "identifier": {
+            "class": "Identifier",
+            "name": "ScrollOptions",
+            "moduleUrl": null,
+            "prefix": null,
+            "value": null
+          },
+          "identifierIsInstance": false
+        },
+        "useClass": null,
+        "useExisting": null,
+        "useValue": null,
+        "useFactory": {
+          "class": "Factory",
+          "name": "injectableScrollOptionsFactory",
+          "prefix": null,
+          "moduleUrl": null,
+          "value": null,
+          "diDeps": []
+        },
+        "multi": false,
+        "deps": null
+      }
+    },
+    "injectableScrollContainerFactory": {
+      "class": "Factory",
+      "name": "injectableScrollContainerFactory",
+      "prefix": null,
+      "moduleUrl": "asset:drag_drop_angular/lib/src/scroll/providers.dart",
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "ScrollContainer",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": true,
+          "isOptional": true,
+          "isValue": false
+        }
+      ]
+    },
+    "injectableScrollManagerFactory": {
+      "class": "Factory",
+      "name": "injectableScrollManagerFactory",
+      "prefix": null,
+      "moduleUrl": "asset:drag_drop_angular/lib/src/scroll/providers.dart",
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "ScrollManager",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": true,
+          "isOptional": true,
+          "isValue": false
+        },
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "MovementManager",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false,
+          "isValue": false
+        },
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "ScrollContainer",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false,
+          "isValue": false
+        },
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "ScrollOptions",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false,
+          "isValue": false
+        },
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "NgZone",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false,
+          "isValue": false
+        }
+      ]
+    },
+    "injectableScrollOptionsFactory": {
+      "class": "Factory",
+      "name": "injectableScrollOptionsFactory",
+      "prefix": null,
+      "moduleUrl": "asset:drag_drop_angular/lib/src/scroll/providers.dart",
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "ScrollOptions",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": true,
+          "isOptional": true,
+          "isValue": false
+        }
+      ]
+    }
+  },
+  "alias": {
+    "SCROLL_PROVIDERS": [
+      "MOVEMENT_PROVIDERS",
+      "ScrollContainerProvider",
+      "ScrollManagerProvider",
+      "ScrollOptionsProvider"
+    ]
+  }
+}

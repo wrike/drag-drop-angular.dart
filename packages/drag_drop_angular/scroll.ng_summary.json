@@ -1,0 +1,19 @@
+{
+  "ngDeps": {
+    "1": "",
+    "4": [
+      {
+        "1": "package:drag_drop/scroll.dart"
+      },
+      {
+        "1": "movement.dart"
+      },
+      {
+        "1": "src/scroll/providers.dart"
+      }
+    ],
+    "6": "scroll.dart"
+  },
+  "type": {},
+  "alias": {}
+}

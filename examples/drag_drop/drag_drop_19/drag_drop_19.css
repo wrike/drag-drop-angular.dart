@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+:host basket-component .info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 10px;
+}

@@ -1,0 +1,13 @@
+{
+  "ngDeps": null,
+  "type": {
+    "FruitType": {
+      "class": "Identifier",
+      "name": "FruitType",
+      "moduleUrl": "asset:drag_drop_angular/web/examples/fruit/fruit_type.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

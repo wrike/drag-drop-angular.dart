@@ -1,0 +1,48 @@
+ /deep/ fruit-component {
+  padding: 8px;
+  margin: 5px 5px 5px 0;
+  display: inline-block;
+  border: solid 1px transparent;
+  transition: width 0.2s, margin 0.2s;
+  min-width: 90px;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open sans', 'lucida grande', 'Segoe UI', arial, verdana, tahoma, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: center;
+}
+ /deep/ fruit-component:last-of-type {
+  margin-right: 0;
+}
+ /deep/ fruit-component .handle {
+  border-radius: 10px;
+  background: dimgray;
+  color: gainsboro;
+  padding: 1px 7px;
+  font-size: 12px;
+  margin-left: 4px;
+}
+ /deep/ fruit-component .handle::after {
+  content: 'handle';
+}
+ /deep/ fruit-component .worm-hole {
+  margin-top: 4px;
+  padding: 1px 3px 2px 3px;
+  width: auto;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 11px;
+}
+ /deep/ fruit-component .note {
+  display: block;
+  margin: 2px 0 7px 0;
+  font-style: italic;
+}
+ /deep/ .drag-source-ghost-wrapper > fruit-component {
+  margin: 0;
+  border-color: transparent;
+}

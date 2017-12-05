@@ -1,0 +1,160 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "../../common.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "DragDropExample12Component",
+        "5": [
+          {
+            "1": "FruitFactory",
+            "4": "fruits"
+          },
+          {
+            "1": "ExampleEventsHandler",
+            "4": "handler"
+          },
+          {
+            "1": "DragDropModelStorage",
+            "4": "storage"
+          }
+        ],
+        "7": [
+          {
+            "2": "CORE_DIRECTIVES"
+          },
+          {
+            "2": "DRAG_DROP_DIRECTIVES"
+          },
+          {
+            "2": "BasketComponent"
+          },
+          {
+            "2": "FruitComponent"
+          }
+        ]
+      }
+    ],
+    "6": "drag_drop_12.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "../../common.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "DragDropExample12Component": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "drag-drop-example-12",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "DragDropExample12Component",
+        "moduleUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_12/drag_drop_12.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "FruitFactory",
+                "moduleUrl": "asset:drag_drop_angular/web/examples/fruit/fruit_factory.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          },
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ExampleEventsHandler",
+                "moduleUrl": "asset:drag_drop_angular/web/examples/event_hander.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          },
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "DragDropModelStorage",
+                "moduleUrl": "package:drag_drop/drag_drop.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<h2>Drag Drop Example 12: Behavior for images, links and input element inside and outside managed draggable container</h2>\n<p>Images and links always goes as dragable element by default in all major browsers, and input element do not prevent drag event.</p>\n<p><strong>Inside</strong> managed draggable container default behavior of these elements is prevented, except navigation to links. Input elements are properly focused.</p>\n\n<basket-component [basket]=\"managedBasket\"\n                  [drag-drop-model]=\"managedBasket\"\n                  [drag-options]=\"dragOptions\"\n                  (onDragStart)=\"onDragStart($event)\"\n                  (onDragEnd)=\"onDragEnd($event)\"\n>\n    <fruit-component  *ngFor=\"let fruit of managedBasket.items\"\n                      [model]=\"fruit\"\n                      [drag-drop-model]=\"fruit\"\n    >\n        <input draggable=\"true\" type=\"text\" [value]=\"fruit.type.name\"/>\n        <a target=\"_blank\" [href]=\"'http://www.google.com/search?q=' + fruit.type.name + '&tbm=isch'\">{{fruit.type.name}}</a>\n        <img height=\"50\" draggable=\"true\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAABCRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIgogICAgICAgICAgICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgICAgICAgICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyI+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjU8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOlhSZXNvbHV0aW9uPjcyPC90aWZmOlhSZXNvbHV0aW9uPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8dGlmZjpZUmVzb2x1dGlvbj43MjwvdGlmZjpZUmVzb2x1dGlvbj4KICAgICAgICAgPGV4aWY6UGl4ZWxYRGltZW5zaW9uPjEyODwvZXhpZjpQaXhlbFhEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOkNvbG9yU3BhY2U+MTwvZXhpZjpDb2xvclNwYWNlPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+MTI4PC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAgICAgPGRjOnN1YmplY3Q+CiAgICAgICAgICAgIDxyZGY6QmFnLz4KICAgICAgICAgPC9kYzpzdWJqZWN0PgogICAgICAgICA8eG1wOk1vZGlmeURhdGU+MjAxNy0wNC0xNVQxNzowNDo5MDwveG1wOk1vZGlmeURhdGU+CiAgICAgICAgIDx4bXA6Q3JlYXRvclRvb2w+UGl4ZWxtYXRvciAzLjY8L3htcDpDcmVhdG9yVG9vbD4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Co1KsMYAAALVSURBVHgB7d3rTVxRDEVhJpqCSANJA6FaaCA0AB0lHeCjsSx8tz7+nofttZcugrmIpydfCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAksJ3Lp9Pf/68697h/OPE/h8f2tl+OPx0k4mECBAQoqNGQjQgJdwlAAJKTZmIEADXsJRAiSk2JiBAA14CUfv00N8/H2dLvGt9//8/fJl/e781f1fFj9Y9AQ4gJS8hQDJ6R7MRoADSMlbCJCc7sFsBDiAlLyFAMnpHsxGgANIyVsIkJzuwWwEOICUvIUAyekezEaAA0jJWwiQnO7BbAQ4gJS8hQDJ6R7MRoADSMlb7tvf65/+PPzq4Xbz8wS4ugHN/gnQBHj14wS4eoLN/gnQBHj14wS4eoLN/gnQBHj14wS4eoLN/m/Vz5Hd99qb/Y0fr37PcPX5q/k8AcYV212AALvzGe+OAOOIdxcgwO58xrsjwDji3QUIsDuf8e4IMI54dwEC7M5nvDsCjCPeXYAAu/MZ744A44h3FyDA7nzGuyPAOOLdBQiwO5/x7ggwjnh3gfJ9gG773c/Tq8+zu/1Nn98+vyfAtAHL7yfA8oCm2yPANOHl9xNgeUDT7RFgmvDy+wmwPKDp9ggwTXj5/ffu/52r/q6gO3/35+hu/er8d/+eopufJ0CVcPg6AcIDrsYjQEUofJ0A4QFX4xGgIhS+ToDwgKvxCFARCl8nQHjA1XgEqAiFrxMgPOBqPAJUhMLXCRAecDUeASpC4esECA+4Go8AFaHw9Vt3vun3Abr9pZ/3PkB6wsPz+RYwDHj79QTYntBwfwQYBrz9egJsT2i4PwIMA95+PQG2J6Q/BBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBB4l8B/K1CuL9rqEEQAAAABJRU5ErkJggg==\" />\n\n    </fruit-component>\n</basket-component>\n\n<p><strong>Outside</strong> managed container default behavior is not prevented.</p>\n<basket-component [basket]=\"unmanagedBasket\"\n>\n    <fruit-component  *ngFor=\"let fruit of unmanagedBasket.items\"\n                      [model]=\"fruit\"\n    >\n        <input type=\"text\" [value]=\"fruit.type.name\"/>\n        <a target=\"_blank\" [href]=\"'http://www.google.com/search?q=' + fruit.type.name + '&tbm=isch'\">{{fruit.type.name}}</a>\n        <img height=\"50\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAABCRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIgogICAgICAgICAgICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgICAgICAgICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyI+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjU8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOlhSZXNvbHV0aW9uPjcyPC90aWZmOlhSZXNvbHV0aW9uPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8dGlmZjpZUmVzb2x1dGlvbj43MjwvdGlmZjpZUmVzb2x1dGlvbj4KICAgICAgICAgPGV4aWY6UGl4ZWxYRGltZW5zaW9uPjEyODwvZXhpZjpQaXhlbFhEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOkNvbG9yU3BhY2U+MTwvZXhpZjpDb2xvclNwYWNlPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+MTI4PC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAgICAgPGRjOnN1YmplY3Q+CiAgICAgICAgICAgIDxyZGY6QmFnLz4KICAgICAgICAgPC9kYzpzdWJqZWN0PgogICAgICAgICA8eG1wOk1vZGlmeURhdGU+MjAxNy0wNC0xNVQxNzowNDo5MDwveG1wOk1vZGlmeURhdGU+CiAgICAgICAgIDx4bXA6Q3JlYXRvclRvb2w+UGl4ZWxtYXRvciAzLjY8L3htcDpDcmVhdG9yVG9vbD4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Co1KsMYAAALVSURBVHgB7d3rTVxRDEVhJpqCSANJA6FaaCA0AB0lHeCjsSx8tz7+nofttZcugrmIpydfCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAksJ3Lp9Pf/68697h/OPE/h8f2tl+OPx0k4mECBAQoqNGQjQgJdwlAAJKTZmIEADXsJRAiSk2JiBAA14CUfv00N8/H2dLvGt9//8/fJl/e781f1fFj9Y9AQ4gJS8hQDJ6R7MRoADSMlbCJCc7sFsBDiAlLyFAMnpHsxGgANIyVsIkJzuwWwEOICUvIUAyekezEaAA0jJWwiQnO7BbAQ4gJS8hQDJ6R7MRoADSMlb7tvf65/+PPzq4Xbz8wS4ugHN/gnQBHj14wS4eoLN/gnQBHj14wS4eoLN/gnQBHj14wS4eoLN/m/Vz5Hd99qb/Y0fr37PcPX5q/k8AcYV212AALvzGe+OAOOIdxcgwO58xrsjwDji3QUIsDuf8e4IMI54dwEC7M5nvDsCjCPeXYAAu/MZ744A44h3FyDA7nzGuyPAOOLdBQiwO5/x7ggwjnh3gfJ9gG773c/Tq8+zu/1Nn98+vyfAtAHL7yfA8oCm2yPANOHl9xNgeUDT7RFgmvDy+wmwPKDp9ggwTXj5/ffu/52r/q6gO3/35+hu/er8d/+eopufJ0CVcPg6AcIDrsYjQEUofJ0A4QFX4xGgIhS+ToDwgKvxCFARCl8nQHjA1XgEqAiFrxMgPOBqPAJUhMLXCRAecDUeASpC4esECA+4Go8AFaHw9Vt3vun3Abr9pZ/3PkB6wsPz+RYwDHj79QTYntBwfwQYBrz9egJsT2i4PwIMA95+PQG2J6Q/BBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBB4l8B/K1CuL9rqEEQAAAABJRU5ErkJggg==\" />\n\n    </fruit-component>\n</basket-component>\n",
+        "templateUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_12/drag_drop_12.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_12/drag_drop_12.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

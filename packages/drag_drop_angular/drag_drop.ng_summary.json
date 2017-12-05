@@ -1,0 +1,28 @@
+{
+  "ngDeps": {
+    "1": "",
+    "4": [
+      {
+        "1": "package:drag_drop/drag_drop.dart"
+      },
+      {
+        "1": "package:user_environment_angular/user_environment_angular.dart"
+      },
+      {
+        "1": "movement.dart"
+      },
+      {
+        "1": "scroll.dart"
+      },
+      {
+        "1": "src/drag_drop/directives.dart"
+      },
+      {
+        "1": "src/drag_drop/providers.dart"
+      }
+    ],
+    "6": "drag_drop.dart"
+  },
+  "type": {},
+  "alias": {}
+}

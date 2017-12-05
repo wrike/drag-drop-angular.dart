@@ -1,0 +1,16 @@
+{
+  "ngDeps": {
+    "1": "",
+    "4": [
+      {
+        "1": "package:user_environment/user_environment.dart"
+      },
+      {
+        "1": "src/providers.dart"
+      }
+    ],
+    "6": "user_environment_angular.dart"
+  },
+  "type": {},
+  "alias": {}
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>DragDrop Angular Examples</title>
+
+    <script defer src="packages/browser/dart.js"></script>
+    <script defer src="assets/main.dart" type="application/dart"></script>
+        
+	<style>
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			overflow: auto;
+		}
+
+		body {
+			font-family: 'Roboto', 'Open Sans', "Segoe UI", "lucida grande", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+			font-weight: 400;
+			font-size: 12px;
+			background-color: #253540;
+			color: #fff;
+			box-sizing: border-box;
+			min-height: 100%;
+			-webkit-font-smoothing: antialiased;
+		}
+
+		.loader-container {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.loader {
+			background: #fff;
+			text-indent: -9999em;
+			margin: 88px auto;
+			position: relative;
+			font-size: 11px;
+			width: 1em;
+			height: 4em;
+
+			transform: translateZ(0);
+
+			-webkit-animation: app-load 1s infinite ease-in-out;
+			animation: app-load 1s infinite ease-in-out;
+
+			-webkit-animation-delay: -0.16s;
+			animation-delay: -0.16s;
+		}
+
+		.loader:before,
+		.loader:after {
+			position: absolute;
+			top: 0;
+			content: '';
+			background: #fff;
+			width: 1em;
+			height: 4em;
+
+			-webkit-animation: app-load 1s infinite ease-in-out;
+			animation: app-load 1s infinite ease-in-out;
+		}
+
+		.loader:before {
+			left: -1.5em;
+
+			-webkit-animation-delay: -0.32s;
+			animation-delay: -0.32s;
+		}
+
+		.loader:after {
+			left: 1.5em;
+		}
+
+		@-webkit-keyframes app-load {
+			0%,
+			80%,
+			100% {
+				box-shadow: 0 0 #fff;
+				height: 4em;
+			}
+			40% {
+				box-shadow: 0 -2em #fff;
+				height: 5em;
+			}
+		}
+
+		@keyframes app-load {
+			0%,
+			80%,
+			100% {
+				box-shadow: 0 0 #fff;
+				height: 4em;
+			}
+			40% {
+				box-shadow: 0 -2em #ffffff;
+				height: 5em;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="drag-drop-examples">
+		<div class="loader-container">
+			<div class="loader"></div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/di.dart",
+        "5": false
+      },
+      {
+        "1": "package:user_environment/user_environment.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "injectableUserEnvironmentFactory",
+        "3": true,
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false
+          }
+        ],
+        "5": [
+          {
+            "1": "UserEnvironment",
+            "3": [
+              "const Optional()",
+              "const SkipSelf()"
+            ],
+            "4": "environment"
+          }
+        ]
+      }
+    ],
+    "6": "providers.dart"
+  },
+  "type": {
+    "USER_ENVIRONMENT_PROVIDERS": {
+      "class": "Identifier",
+      "name": "USER_ENVIRONMENT_PROVIDERS",
+      "moduleUrl": "asset:user_environment_angular/lib/src/providers.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "userEnvironmentProvider",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ]
+    },
+    "injectableUserEnvironmentFactory": {
+      "class": "Factory",
+      "name": "injectableUserEnvironmentFactory",
+      "prefix": null,
+      "moduleUrl": "asset:user_environment_angular/lib/src/providers.dart",
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "UserEnvironment",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": true,
+          "isOptional": true,
+          "isValue": false
+        }
+      ]
+    },
+    "userEnvironmentProvider": {
+      "class": "Identifier",
+      "name": "userEnvironmentProvider",
+      "moduleUrl": "asset:user_environment_angular/lib/src/providers.dart",
+      "prefix": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "value": null,
+          "identifier": {
+            "class": "Identifier",
+            "name": "UserEnvironment",
+            "moduleUrl": null,
+            "prefix": null,
+            "value": null
+          },
+          "identifierIsInstance": false
+        },
+        "useClass": null,
+        "useExisting": null,
+        "useValue": null,
+        "useFactory": {
+          "class": "Factory",
+          "name": "injectableUserEnvironmentFactory",
+          "prefix": null,
+          "moduleUrl": null,
+          "value": null,
+          "diDeps": []
+        },
+        "multi": false,
+        "deps": null
+      }
+    }
+  },
+  "alias": {
+    "USER_ENVIRONMENT_PROVIDERS": [
+      "userEnvironmentProvider"
+    ]
+  }
+}

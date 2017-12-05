@@ -1,0 +1,28 @@
+
+:host {
+    display: block;
+
+    input, a, img {
+        display: block;
+        margin: 5px auto 0 auto;
+    }
+
+    img {
+      margin-top: 0;
+      width: 50px;
+    }
+}
+
+/deep/ .drag-source-ghost-wrapper {
+    &> fruit-component {
+        input, a, img {
+            display: block;
+            margin: 5px auto 0 auto;
+        }
+
+        img {
+            margin-top: 0;
+            width: 50px;
+        }
+    }
+}

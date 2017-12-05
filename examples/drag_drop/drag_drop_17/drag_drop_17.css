@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+:host fruit-component.drop-target-over-valid {
+  background-color: lawngreen!important;
+}
+:host fruit-component.drop-target-over-invalid {
+  background-color: crimson!important;
+}

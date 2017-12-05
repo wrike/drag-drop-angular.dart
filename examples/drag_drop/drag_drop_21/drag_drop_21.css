@@ -1,0 +1,9 @@
+:host {
+  display: block;
+}
+:host basket-component.drop-target-over-valid {
+  background: #bee9f5;
+}
+:host basket-component.drop-target-spring-valid {
+  background: deepskyblue;
+}

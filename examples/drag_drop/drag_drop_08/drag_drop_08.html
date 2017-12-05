@@ -1,0 +1,16 @@
+<h2>Drag Drop Example 8. Provide fruit model by calling provideModel (read from DOM)</h2>
+<p>Custom logic may be used to store and retrieve models using DragOptions.provideModel handler.
+  In this example, model for draggable element is not bound and element's ID attribute is used to retrieve draggable element's
+  model.</p>
+
+<basket-component [basket]="basket"
+                  [drag-drop-model]="basket"
+                  [drag-options]="dragOptions"
+                  (onDragStart)="onDragStart($event)"
+                  (onDragEnd)="onDragEnd($event)"
+>
+  <fruit-component *ngFor="let fruit of basket.items"
+                   [attr.id]="fruit.id"
+                   [model]="fruit"
+  ></fruit-component>
+</basket-component>

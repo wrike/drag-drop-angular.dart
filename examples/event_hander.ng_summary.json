@@ -1,0 +1,74 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/di.dart",
+        "5": false
+      },
+      {
+        "1": "package:drag_drop_angular/drag_drop.dart",
+        "5": false
+      },
+      {
+        "1": "basket/basket_model.dart",
+        "5": false
+      },
+      {
+        "1": "fruit/fruit_model.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "ExampleEventsHandler",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false
+          }
+        ],
+        "5": [
+          {
+            "1": "DragDropModelStorage",
+            "4": "modelStorage"
+          }
+        ]
+      }
+    ],
+    "6": "event_hander.dart"
+  },
+  "type": {
+    "ExampleEventsHandler": {
+      "class": "Type",
+      "name": "ExampleEventsHandler",
+      "moduleUrl": "asset:drag_drop_angular/web/examples/event_hander.dart",
+      "prefix": null,
+      "isHost": false,
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DragDropModelStorage",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false,
+          "isValue": false
+        }
+      ]
+    }
+  },
+  "alias": {}
+}

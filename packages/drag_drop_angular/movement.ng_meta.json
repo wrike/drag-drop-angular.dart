@@ -1,0 +1,362 @@
+{
+  "ngDeps": {
+    "1": "",
+    "4": [
+      {
+        "1": "package:drag_drop/movement.dart"
+      },
+      {
+        "1": "src/movement/providers.dart"
+      }
+    ],
+    "6": "movement.dart",
+    "7": [
+      {
+        "1": "src/movement/providers.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "type": {
+    "MOVEMENT_PROVIDERS": {
+      "class": "Identifier",
+      "name": "MOVEMENT_PROVIDERS",
+      "moduleUrl": "asset:drag_drop_angular/lib/src/movement/providers.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "MovementOptions",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableMovementOptionsFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/movement/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "MovementOptions",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "MovementManager",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableMovementManagerFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/movement/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "MovementManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "MovementOptions",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        }
+      ]
+    },
+    "MovementManagerProvider": {
+      "class": "Identifier",
+      "name": "MovementManagerProvider",
+      "moduleUrl": "asset:drag_drop_angular/lib/src/movement/providers.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "MovementManager",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableMovementManagerFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/movement/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "MovementManager",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              },
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "MovementOptions",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        }
+      ]
+    },
+    "MovementOptionsProvider": {
+      "class": "Identifier",
+      "name": "MovementOptionsProvider",
+      "moduleUrl": "asset:drag_drop_angular/lib/src/movement/providers.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "MovementOptions",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "injectableMovementOptionsFactory",
+            "prefix": null,
+            "moduleUrl": "asset:drag_drop_angular/lib/src/movement/providers.dart",
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "MovementOptions",
+                    "moduleUrl": "package:drag_drop/drag_drop.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": true,
+                "isOptional": true,
+                "isValue": false
+              }
+            ]
+          },
+          "multi": false,
+          "deps": null
+        }
+      ]
+    },
+    "injectableMovementManagerFactory": {
+      "class": "Factory",
+      "name": "injectableMovementManagerFactory",
+      "prefix": null,
+      "moduleUrl": "asset:drag_drop_angular/lib/src/movement/providers.dart",
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "MovementManager",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": true,
+          "isOptional": true,
+          "isValue": false
+        },
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "MovementOptions",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false,
+          "isValue": false
+        }
+      ]
+    },
+    "injectableMovementOptionsFactory": {
+      "class": "Factory",
+      "name": "injectableMovementOptionsFactory",
+      "prefix": null,
+      "moduleUrl": "asset:drag_drop_angular/lib/src/movement/providers.dart",
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "MovementOptions",
+              "moduleUrl": "package:drag_drop/drag_drop.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": true,
+          "isOptional": true,
+          "isValue": false
+        }
+      ]
+    }
+  },
+  "alias": {
+    "MOVEMENT_PROVIDERS": [
+      "MovementManagerProvider",
+      "MovementOptionsProvider"
+    ]
+  }
+}

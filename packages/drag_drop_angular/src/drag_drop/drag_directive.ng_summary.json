@@ -1,0 +1,153 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:drag_drop/drag_drop.dart",
+        "5": false
+      },
+      {
+        "1": "base_drag_drop_directive.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "DragDirective",
+        "5": [
+          {
+            "1": "NgZone",
+            "4": "ngZone"
+          },
+          {
+            "1": "DragDropSubscriptionFactory",
+            "4": "subscriptionFactory"
+          },
+          {
+            "1": "ElementRef",
+            "4": "elRef"
+          }
+        ],
+        "6": [
+          "AfterViewChecked",
+          "AfterViewInit",
+          "OnDestroy",
+          "OnChanges"
+        ]
+      }
+    ],
+    "6": "drag_directive.dart"
+  },
+  "type": {
+    "DragDirective": {
+      "class": "Directive",
+      "isComponent": false,
+      "selector": "[drag-options]",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "DragDirective",
+        "moduleUrl": "asset:drag_drop_angular/lib/src/drag_drop/drag_directive.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "NgZone",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          },
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "DragDropSubscriptionFactory",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          },
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ElementRef",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {
+        "options": "drag-options"
+      },
+      "inputTypes": {
+        "options": " DragOptions"
+      },
+      "outputs": {
+        "onDragStart": "onDragStart",
+        "onDragEnd": "onDragEnd"
+      },
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        7,
+        6,
+        1,
+        3
+      ],
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

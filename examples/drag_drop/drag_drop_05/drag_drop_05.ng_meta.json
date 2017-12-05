@@ -1,0 +1,136 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "../../common.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "DragDropExample05Component",
+        "5": [
+          {
+            "1": "FruitFactory",
+            "4": "fruits"
+          },
+          {
+            "1": "ExampleEventsHandler",
+            "4": "handler"
+          }
+        ],
+        "7": [
+          {
+            "2": "CORE_DIRECTIVES"
+          },
+          {
+            "2": "DRAG_DROP_DIRECTIVES"
+          },
+          {
+            "2": "BasketComponent"
+          },
+          {
+            "2": "FruitComponent"
+          }
+        ]
+      }
+    ],
+    "6": "drag_drop_05.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "../../common.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "DragDropExample05Component": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "drag-drop-example-05",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "DragDropExample05Component",
+        "moduleUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_05/drag_drop_05.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "FruitFactory",
+                "moduleUrl": "asset:drag_drop_angular/web/examples/fruit/fruit_factory.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          },
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ExampleEventsHandler",
+                "moduleUrl": "asset:drag_drop_angular/web/examples/event_hander.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<h2>Drag Drop Example 5. Drag fruit as a container from inside another draggable</h2>\n<p>Draggable containers can be nested, for example you may drag fruits as well as basket itself.</p>\n\n<basket-component [basket]=\"basket\"\n                  [drag-drop-model]=\"basket\"\n                  [drag-options]=\"dragOptionsBasket\"\n                  (onDragStart)=\"onBasketDragStart($event)\"\n                  (onDragEnd)=\"onBasketDragEnd($event)\"\n>\n  <fruit-component *ngFor=\"let fruit of basket.items\" [model]=\"fruit\"\n                   [drag-options]=\"dragOptionsFruit\"\n                   [drag-drop-model]=\"fruit\"\n                   (onDragStart)=\"onFruitDragStart($event)\"\n                   (onDragEnd)=\"onFruitDragEnd($event)\"\n  ></fruit-component>\n</basket-component>\n",
+        "templateUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_05/drag_drop_05.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_05/drag_drop_05.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

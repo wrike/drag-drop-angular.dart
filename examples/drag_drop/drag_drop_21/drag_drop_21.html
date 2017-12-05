@@ -1,0 +1,22 @@
+<h2>Drag Drop Example 21: Handle DragSpringEnter</h2>
+<p>You may provide DragSpringOptions via dropOptions.provideSpringOptions to receive DragSpringEnter after some delay (2 seconds in this example).</p>
+
+<basket-component [basket]="basket1"
+                  [drag-options]="dragOptions"
+>
+  <fruit-component *ngFor="let fruit of basket1.items"
+                   [model]="fruit"
+                   [drag-drop-model]="fruit"
+  ></fruit-component>
+</basket-component>
+
+<basket-component [basket]="basket2"
+                  [drop-options]="dropOptions"
+                  (onDragSpringEnter)="onDragSpringEnter($event)"
+                  (onDragEnter)="onDragEnter($event)"
+>
+  <fruit-component *ngFor="let fruit of basket2.items"
+                   [model]="fruit"
+  ></fruit-component>
+</basket-component>
+
