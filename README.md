@@ -6,4 +6,4 @@ Due to nature of the underlying API, it's possible to implement system-wide drag
 
 It also provides ability to manage scroll-on-drag process.
 
-Based on `drag-drop.dart` package [GitHub](https://github.com/wrike/drag-drop.dart), [Pub](https://pub.dartlang.org/packages/drag_drop)
+Based on `drag_drop` package [GitHub](https://github.com/wrike/drag-drop.dart), [Pub](https://pub.dartlang.org/packages/drag_drop)
