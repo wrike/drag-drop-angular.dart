@@ -1,0 +1,21 @@
+<h2>Drag Drop Example 22: Reorder items</h2>
+<p>Due to the declarative approach of Angular,
+  we must do reordering the same way by configuring drop-target for each place where the item can be dropped.</p>
+
+<basket-component [basket]="basket"
+                  [drag-options]="dragOptions"
+                  [drop-options]="dropOptions"
+                  (onDragOver)="onDragOver($event)"
+                  (onDrop)="onDrop($event)"
+                  [class.shift-left]="movingLeft"
+                  [class.shift-right]="movingRight"
+>
+  <div *ngFor="let fruit of basket.items"
+       class="fruit-wrapper"
+       [drag-drop-model]="fruit"
+  >
+    <fruit-component [model]="fruit"
+                     [drag-drop-model]="fruit"
+    ></fruit-component>
+  </div>
+</basket-component>

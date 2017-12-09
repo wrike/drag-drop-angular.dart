@@ -1,5 +1,5 @@
 name: drag_drop_angular
-version: 1.0.2
+version: 1.0.2+1
 description: 'AngularDart providers for HTML5 Drag Drop library'
 homepage: http://www.github.com/wrike/drag-drop-angular.dart
 publish_to: http://pub.dartlang.org
