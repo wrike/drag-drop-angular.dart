@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2+1
+- New example: Reordering
+
 ## 1.0.2
 - Live examples
 

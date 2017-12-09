@@ -1,3 +1,4 @@
+import 'drag_drop/drag_drop_22/drag_drop_22.dart';
 import 'package:angular2/angular2.dart';
 
 import 'common.dart';
@@ -54,7 +55,8 @@ import 'drag_drop/drag_drop_21/drag_drop_21.dart';
     DragDropExample18Component,
     DragDropExample19Component,
     DragDropExample20Component,
-    DragDropExample21Component
+    DragDropExample21Component,
+    DragDropExample22Component
   ]
 )
 class ExamplesComponent {
