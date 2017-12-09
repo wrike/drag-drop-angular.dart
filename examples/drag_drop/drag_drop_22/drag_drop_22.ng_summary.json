@@ -1,0 +1,126 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "../../common.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "DragDropExample22Component",
+        "5": [
+          {
+            "1": "FruitFactory",
+            "4": "fruits"
+          },
+          {
+            "1": "ExampleEventsHandler",
+            "4": "handler"
+          }
+        ],
+        "7": [
+          {
+            "2": "CORE_DIRECTIVES"
+          },
+          {
+            "2": "DRAG_DROP_DIRECTIVES"
+          },
+          {
+            "2": "BasketComponent"
+          },
+          {
+            "2": "FruitComponent"
+          }
+        ]
+      }
+    ],
+    "6": "drag_drop_22.dart"
+  },
+  "type": {
+    "DragDropExample22Component": {
+      "class": "Directive",
+      "isComponent": true,
+      "selector": "drag-drop-example-22",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "DragDropExample22Component",
+        "moduleUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_22/drag_drop_22.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "FruitFactory",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          },
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ExampleEventsHandler",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {},
+      "inputTypes": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<h2>Drag Drop Example 22: Reorder items</h2>\n<p>Due to the declarative approach of Angular,\n  we must do reordering the same way by configuring drop-target for each place where the item can be dropped.</p>\n\n<basket-component [basket]=\"basket\"\n                  [drag-options]=\"dragOptions\"\n                  [drop-options]=\"dropOptions\"\n                  (onDragOver)=\"onDragOver($event)\"\n                  (onDrop)=\"onDrop($event)\"\n                  [class.shift-left]=\"movingLeft\"\n                  [class.shift-right]=\"movingRight\"\n>\n  <div *ngFor=\"let fruit of basket.items\"\n       class=\"fruit-wrapper\"\n       [drag-drop-model]=\"fruit\"\n  >\n    <fruit-component [model]=\"fruit\"\n                     [drag-drop-model]=\"fruit\"\n    ></fruit-component>\n  </div>\n</basket-component>\n",
+        "templateUrl": "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_22/drag_drop_22.html",
+        "styles": [],
+        "styleUrls": [
+          "asset:drag_drop_angular/web/examples/drag_drop/drag_drop_22/drag_drop_22.css"
+        ],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

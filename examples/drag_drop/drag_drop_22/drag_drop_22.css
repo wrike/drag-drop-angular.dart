@@ -1,0 +1,14 @@
+:host {
+  display: block;
+}
+:host .fruit-wrapper {
+  padding-right: 6px;
+  display: inline-block;
+  transition: padding 0.1s;
+}
+:host basket-component.drag-drop-container-over.shift-left .fruit-wrapper.drop-target-over-valid {
+  padding-left: 40px;
+}
+:host basket-component.drag-drop-container-over.shift-right .fruit-wrapper.drop-target-over-valid {
+  padding-right: 40px;
+}
