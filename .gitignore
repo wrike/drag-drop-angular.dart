@@ -1,0 +1,13 @@
+# Files and directories created by pub
+.DS_Store
+.packages
+.pub/
+build
+**/packages
+pubspec.lock
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
